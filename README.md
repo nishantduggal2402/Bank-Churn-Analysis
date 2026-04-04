@@ -31,7 +31,7 @@ To analyze customer behavior and generate insights that help reduce churn and im
 - Customer Segmentation – Churn across age, geography, activity, and credit profile  
 
 ## 📁 Project Structure  
-- data/ – Dataset files  
+- data.zip - Dataset files  
 - Bank-Churn-Analysis.ipynb – Python analysis  
 - BankChurn_Insights.pbix – Power BI dashboard  
 - Images_Dashboards/ – Dashboard screenshots  
