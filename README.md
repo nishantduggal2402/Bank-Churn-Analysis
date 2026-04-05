@@ -1,56 +1,59 @@
-# 📊 Bank Customer Churn Analysis & Prediction  
+# 📊 Bank Customer Churn Analysis  
 
-## 📌 Project  
-Conducted end-to-end analysis of bank customer data using Python and Power BI, including data cleaning, EDA, dashboarding, and building a Logistic Regression model to predict customer churn.  
+## 📌 Project Overview  
+Analyzed bank customer data using Python and Power BI to identify key drivers of customer churn and generate actionable insights for retention. The project focuses on **data cleaning, exploratory analysis, feature engineering, and dashboards** to support business decision-making.  
 
 ## 🎯 Objective  
-Identify key churn drivers and enable proactive, data-driven customer retention strategies.  
+Identify high-risk customers and enable **data-driven retention strategies**.  
 
-## ⚙️ Tools  
+## ⚙️ Tools & Technologies  
 - Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
 - Power BI  
 
 ## 📊 Key Insights  
-- Inactive customers are the strongest drivers of churn  
-- Middle-aged and mid credit-score customers show higher churn  
-- High-balance customers are more likely to churn (high-value risk)  
-- Germany & France show higher churn compared to Spain  
-- Churn peaks between September–December  
+- **Inactive customers** are the strongest driver of churn  
+- Middle-aged and mid credit-score customers have higher churn  
+- High-balance customers are at risk of leaving  
+- Customers in **Germany & France** show higher churn than in Spain  
+- Churn peaks between **September–December**  
 
-## 🤖 Model  
-- Built a Logistic Regression model with encoded features  
-- Accuracy: ~70% after handling class imbalance  
-- Improved identification of churned customers vs baseline  
+## 🛠 Data & Analysis Highlights  
+- Data cleaning and preprocessing, including handling categorical features  
+- Exploratory Data Analysis (EDA) with visualizations to identify trends  
+- Feature engineering to capture important customer characteristics  
 
-### 🔍 Feature Importance  
-**Increases churn:**  
+## 📊 Dashboards (Power BI)  
+- Churn overview with KPIs and trends  
+- Customer segmentation by age, geography, activity status  
+- Time-based churn analysis (seasonality)  
+- Identification of high-risk customer segments  
+
+## 🔍 Applied Python Analysis  
+- Built a **Logistic Regression model** to support insights (accuracy ~70%)  
+- Evaluated feature importance to understand **factors increasing or decreasing churn**  
+
+**Features Increasing Churn:**  
 - Inactive customers  
 - Germany region  
 - Middle-aged segment  
 - Higher balances  
 
-**Decreases churn:**  
+**Features Reducing Churn:**  
 - Active customers  
 - Longer tenure  
 - Higher credit score segments  
 
-## 📊 Dashboard (Power BI)  
-- Churn overview with KPIs and trends  
-- Customer segmentation by age, geography, and activity  
-- Time-based churn analysis (seasonality)  
-- Identification of high-risk customer segments  
-
 ## 🚀 Business Impact  
-- Enabled early identification of high-risk customers  
-- Improved churn detection for targeted retention campaigns  
-- Helped protect high-value customers and reduce revenue loss  
-- Supported region-specific and behavior-based decision making  
+- Early identification of high-risk customers  
+- Targeted retention campaigns to reduce churn  
+- Protection of high-value customers to prevent revenue loss  
+- Supported data-driven, region-specific decisions 
 
-## 📁 Files  
-- Images_Dashboards
-- Churn_Analysis.ipynb
-- BankChurn_Insights.pbix
-- data.zip
+## 📁 Project Files  
+- Churn_Analysis.ipynb – Python analysis 
+- BankChurn_Insights.pbix – Power BI dashboard  
+- data.zip – Dataset  
+- Images_Dashboards/ – Screenshots of dashboards  
 
 ## ✅ Conclusion  
-This project combines EDA, dashboarding, and predictive modeling to deliver actionable insights for reducing customer churn and improving retention.  
+This project demonstrates **core Data Analyst skills** — data cleaning, feature engineering, exploratory analysis, and dashboarding — while providing actionable insights for customer retention.
