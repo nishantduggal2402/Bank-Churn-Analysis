@@ -1,43 +1,56 @@
-# 📊 Bank Churn Analysis – Customer Retention Insights  
+# 📊 Bank Customer Churn Analysis & Prediction  
 
 ## 📌 Project  
-Analyzed bank customer data using Python and Power BI, including data cleaning, feature engineering, and EDA to identify key drivers of customer churn.  
+Conducted end-to-end analysis of bank customer data using Python and Power BI, including data cleaning, EDA, dashboarding, and building a Logistic Regression model to predict customer churn.  
 
-## 🎯 Business Requirement  
-To analyze customer behavior and generate insights that help reduce churn and improve customer retention for Bank.  
+## 🎯 Objective  
+Identify key churn drivers and enable proactive, data-driven customer retention strategies.  
 
-## ⚙️ Tools & Technologies  
-- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+## ⚙️ Tools  
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
 - Power BI  
 
 ## 📊 Key Insights  
-- Middle-aged customers show higher churn compared to younger and older segments, indicating a critical risk group.  
-- Customers with moderate to high balances are more likely to churn, highlighting potential loss of high-value clients.  
-- Inactive customers churn significantly more than active members, making inactivity the strongest indicator of churn.  
-- Customers in lower to mid credit segments (poor and fair) show higher churn, while higher credit segments demonstrate better retention.  
-- Credit card holders contribute a larger share of churn compared to non-credit card customers.  
-- France and Germany show higher churn compared to Spain, indicating regional performance gaps.  
-- Churn increased from 2016–2019 with a clear seasonal spike between September and December.  
-- Heatmap analysis showed no strong autocorrelation, indicating churn is driven by a combination of factors rather than any single variable.  
+- Inactive customers are the strongest drivers of churn  
+- Middle-aged and mid credit-score customers show higher churn  
+- High-balance customers are more likely to churn (high-value risk)  
+- Germany & France show higher churn compared to Spain  
+- Churn peaks between September–December  
+
+## 🤖 Model  
+- Built a Logistic Regression model with encoded features  
+- Accuracy: ~70% after handling class imbalance  
+- Improved identification of churned customers vs baseline  
+
+### 🔍 Feature Importance  
+**Increases churn:**  
+- Inactive customers  
+- Germany region  
+- Middle-aged segment  
+- Higher balances  
+
+**Decreases churn:**  
+- Active customers  
+- Longer tenure  
+- Higher credit score segments  
+
+## 📊 Dashboard (Power BI)  
+- Churn overview with KPIs and trends  
+- Customer segmentation by age, geography, and activity  
+- Time-based churn analysis (seasonality)  
+- Identification of high-risk customer segments  
 
 ## 🚀 Business Impact  
-- Enabled targeted retention strategies for high-risk segments (inactive, mid credit-score, and middle-aged customers).  
-- Helped protect revenue by identifying and retaining high-value (high balance) customers.  
-- Supported region-specific strategies for high-churn markets like France and Germany.  
-- Allowed proactive campaigns before peak churn periods (Sep–Dec).  
+- Enabled early identification of high-risk customers  
+- Improved churn detection for targeted retention campaigns  
+- Helped protect high-value customers and reduce revenue loss  
+- Supported region-specific and behavior-based decision making  
 
-## 📊 Dashboard Highlights  
-- Churn Overview – Overall trends and KPIs  
-- Customer Segmentation – Churn across age, geography, activity, and credit profile  
-
-## 📁 Project Structure  
-- data.zip - Dataset files  
-- Bank-Churn-Analysis.ipynb – Python analysis  
-- BankChurn_Insights.pbix – Power BI dashboard  
-- Images_Dashboards/ – Dashboard screenshots  
-
-## 📂 Dataset  
-Customer dataset including demographics, account details, and churn status.  
+## 📁 Files  
+- Images_Dashboards
+- Churn_Analysis.ipynb
+- BankChurn_Insights.pbix
+- data.zip
 
 ## ✅ Conclusion  
-This project highlights how data analysis can identify churn drivers and enable data-driven strategies to improve customer retention.  
+This project combines EDA, dashboarding, and predictive modeling to deliver actionable insights for reducing customer churn and improving retention.  
